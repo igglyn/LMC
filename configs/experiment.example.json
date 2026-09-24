@@ -1,0 +1,25 @@
+{
+  "run_name": "lfm25-a1b-latent-window-v0",
+  "seed": 20260924,
+  "model": {
+    "id": "LiquidAI/LFM2.5-8B-A1B",
+    "weights_path": "/models/LFM2.5-8B-A1B",
+    "full_weight_training": true,
+    "device": "cuda",
+    "dtype": "bfloat16",
+    "trust_remote_code": false
+  },
+  "teacher": {
+    "max_concurrent_requests": 8,
+    "request_queue_size": 64
+  },
+  "thinking_window": {
+    "preserve_kv_for_latent_steps": true,
+    "clear_kv_at_window_end": true,
+    "position_mode": "preserve"
+  },
+  "tracking": {
+    "provider": "wandb",
+    "log_raw_traces": false
+  }
+}
