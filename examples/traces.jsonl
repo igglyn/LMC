@@ -1,0 +1,1 @@
+{"id":"arithmetic-001","messages":[{"role":"user","content":"What is 17 + 25?"},{"role":"assistant","phase":"thinking","content":"Add the tens: 10 + 20 = 30. Add the ones: 7 + 5 = 12. Total is 42."},{"role":"assistant","phase":"final","content":"42"}],"metadata":{"source":"fixture"}}
